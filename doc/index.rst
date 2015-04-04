@@ -1,5 +1,5 @@
-Stock Review Module
-###################
+Stock Shipment Review Module
+############################
 
-The stock review module adds a field to output shipments in order to check
-whether is reviewed or not.
+The stock shipment review module adds a field to output shipments in order to
+check if has been reviewed or not.

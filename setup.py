@@ -6,7 +6,7 @@ import re
 import os
 import ConfigParser
 
-MODULE = 'stock_review'
+MODULE = 'stock_shipment_review'
 PREFIX = 'trytonzz'
 MODULE2PREFIX = {}
 
@@ -40,7 +40,7 @@ tests_require = ['proteus >= %s.%s, < %s.%s' %
 setup(name='%s_%s' % (PREFIX, MODULE),
     version=info.get('version', '0.0.1'),
     description='Tryton module that adds a field to output shipments in order '
-        'to check whether is reviewed or not.',
+        'to check if has been reviewed or not.',
     author='Zikzakmedia SL',
     author_email='zikzak@zikzakmedia.com',
     url='http://www.zikzakmedia.com',

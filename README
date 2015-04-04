@@ -1,7 +1,7 @@
-trytond-stock_review
-====================
+trytond-stock_shipment_review
+=============================
 
-The stock review module of the Tryton application platform.
+The stock shipment review module of the Tryton application platform.
 
 Installing
 ----------

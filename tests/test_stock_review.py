@@ -6,15 +6,15 @@ import trytond.tests.test_tryton
 import unittest
 
 
-class StockReviewTestCase(unittest.TestCase):
-    'Test Stock Review module'
+class StockShipmentReviewTestCase(unittest.TestCase):
+    'Test Stock Shipment Review module'
 
     def setUp(self):
-        trytond.tests.test_tryton.install_module('stock_review')
+        trytond.tests.test_tryton.install_module('stock_shipment_review')
 
     def test0005views(self):
         'Test views'
-        test_view('stock_review')
+        test_view('stock_shipment_review')
 
     def test0006depends(self):
         'Test depends'
@@ -24,5 +24,5 @@ class StockReviewTestCase(unittest.TestCase):
 def suite():
     suite = trytond.tests.test_tryton.suite()
     suite.addTests(unittest.TestLoader().loadTestsFromTestCase(
-        StockReviewTestCase))
+        StockShipmentReviewTestCase))
     return suite
