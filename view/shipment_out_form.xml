@@ -3,7 +3,7 @@
 copyright notices and license terms. -->
 <data>
     <xpath expr="/form/field[@name='warehouse']" position="after">
-        <label name="reviewed"/>
-        <field name="reviewed"/>
+        <label name="review"/>
+        <field name="review"/>
     </xpath>
 </data>

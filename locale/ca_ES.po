@@ -2,9 +2,9 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
-msgctxt "field:stock.shipment.out,reviewed:"
-msgid "Reviewed"
-msgstr "Revisat"
+msgctxt "field:stock.shipment.out,review:"
+msgid "Review"
+msgstr "Revisar"
 
 msgctxt ""
 "model:ir.action.act_window.domain,name:act_shipment_out_form_domain_to_review"

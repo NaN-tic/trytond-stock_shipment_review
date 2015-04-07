@@ -10,9 +10,9 @@ __metaclass__ = PoolMeta
 
 class ShipmentOut:
     __name__ = 'stock.shipment.out'
-    reviewed = fields.Boolean('Reviewed')
+    review = fields.Boolean('Review')
 
     @classmethod
     def done(cls, shipments):
         super(ShipmentOut, cls).done(shipments)
-        cls.write(shipments, {'reviewed': True})
+        cls.write(shipments, {'review': False})
