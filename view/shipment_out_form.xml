@@ -6,4 +6,10 @@ copyright notices and license terms. -->
         <label name="review"/>
         <field name="review"/>
     </xpath>
+
+    <xpath expr="/form/notebook/page[@id='outgoing_moves']" position="after">
+        <page string="Review" id="review"  states="{'invisible': Not(Bool(Eval('review')))}">
+            <field name="review_description" colspan="4"/>
+        </page>
+    </xpath>
 </data>
