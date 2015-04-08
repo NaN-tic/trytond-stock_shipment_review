@@ -6,7 +6,15 @@ msgctxt "field:stock.shipment.out,review:"
 msgid "Review"
 msgstr "Revisar"
 
+msgctxt "field:stock.shipment.out,review_description:"
+msgid "Review Description"
+msgstr "Descripción revisión"
+
 msgctxt ""
 "model:ir.action.act_window.domain,name:act_shipment_out_form_domain_to_review"
 msgid "To Review"
 msgstr "A revisar"
+
+msgctxt "view:stock.shipment.out:"
+msgid "Review"
+msgstr "Revisión"
