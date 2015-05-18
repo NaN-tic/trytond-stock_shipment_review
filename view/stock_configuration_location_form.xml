@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<form string="Review Location" col="4">
+    <label name="warehouse"/>
+    <field name="warehouse"/>
+    <label name="location"/>
+    <field name="location"/>
+    <label name="configuration"/>
+    <field name="configuration"/>
+</form>
