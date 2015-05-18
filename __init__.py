@@ -10,4 +10,5 @@ def register():
         ConfigurationLocation,
         Configuration,
         ShipmentOut,
+        ShipmentIn,
         module='stock_shipment_review', type_='model')
