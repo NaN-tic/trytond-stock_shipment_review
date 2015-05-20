@@ -11,18 +11,18 @@ this repository contains the full copyright notices and license terms. -->
             <field name="name">configuration_form</field>
         </record>
 
-        <!-- stock.configuration.location -->
-        <record model="ir.ui.view" id="stock_configuration_location_tree_view">
-            <field name="model">stock.configuration.location</field>
+        <!-- stock.configuration.location.review -->
+        <record model="ir.ui.view" id="stock_configuration_location_review_tree_view">
+            <field name="model">stock.configuration.location.review</field>
             <field name="type">tree</field>
             <field name="priority" eval="30"/>
-            <field name="name">stock_configuration_location_tree</field>
+            <field name="name">stock_configuration_location_review_tree</field>
         </record>
-        <record model="ir.ui.view" id="stock_configuration_location_form_view">
-            <field name="model">stock.configuration.location</field>
+        <record model="ir.ui.view" id="stock_configuration_location_review_form_view">
+            <field name="model">stock.configuration.location.review</field>
             <field name="type">form</field>
             <field name="priority" eval="30"/>
-            <field name="name">stock_configuration_location_form</field>
+            <field name="name">stock_configuration_location_review_form</field>
         </record>
     </data>
 </tryton>

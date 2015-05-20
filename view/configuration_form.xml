@@ -4,6 +4,6 @@ copyright notices and license terms. -->
 <data>
     <xpath expr="/form/field[@name=&quot;shipment_internal_sequence&quot;]"
             position="after">
-        <field name="locations" colspan="4"/>
+        <field name="review_locations" colspan="4"/>
     </xpath>
 </data>

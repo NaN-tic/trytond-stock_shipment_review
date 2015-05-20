@@ -4,14 +4,13 @@ from trytond.model import fields, ModelSQL, ModelView
 from trytond.pool import PoolMeta
 from trytond.pyson import If, Bool, Eval
 
-
-__all__ = ['ConfigurationLocation', 'Configuration']
+__all__ = ['ConfigurationLocationReview', 'Configuration']
 __metaclass__ = PoolMeta
 
 
-class ConfigurationLocation(ModelSQL, ModelView):
-    'Configuration Location'
-    __name__ = 'stock.configuration.location'
+class ConfigurationLocationReview(ModelSQL, ModelView):
+    'Configuration Location Review'
+    __name__ = 'stock.configuration.location.review'
     configuration = fields.Many2One('stock.configuration', 'Configuration',
         ondelete='CASCADE', select=True, required=True)
     warehouse = fields.Many2One('stock.location', 'Warehouse', required=True,
@@ -27,5 +26,5 @@ class ConfigurationLocation(ModelSQL, ModelView):
 
 class Configuration:
     __name__ = 'stock.configuration'
-    locations = fields.One2Many('stock.configuration.location',
+    review_locations = fields.One2Many('stock.configuration.location.review',
         'configuration', 'Review Locations')

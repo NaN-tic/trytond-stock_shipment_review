@@ -1,10 +1,13 @@
 <?xml version="1.0"?>
-<!-- The COPYRIGHT file at the top level of this repository contains the full
-copyright notices and license terms. -->
+<!-- This file is part product_review module for Tryton.
+The COPYRIGHT file at the top level of this repository contains the full copyright notices and license terms. -->
 <tryton>
     <data>
-        <record model="product.review.type" id="product_review_type_review_location">
-            <field name="name">Review Location</field>
+        <record model="ir.ui.view" id="template_view_form">
+            <field name="model">product.template</field>
+            <field name="type">form</field>
+            <field name="inherit" ref="product.template_view_form"/>
+            <field name="name">template_form</field>
         </record>
     </data>
 </tryton>
