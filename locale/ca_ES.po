@@ -2,43 +2,47 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
-msgctxt "field:stock.configuration,locations:"
-msgid "Review Locations"
-msgstr "Revisió d'ubicacions"
+msgctxt "field:product.template,review_location:"
+msgid "Review Location"
+msgstr "Revisió ubicació"
 
-msgctxt "field:stock.configuration.location,configuration:"
+msgctxt "field:stock.configuration,review_locations:"
+msgid "Review Locations"
+msgstr "Ubicacions revisió"
+
+msgctxt "field:stock.configuration.location.review,configuration:"
 msgid "Configuration"
 msgstr "Configuració"
 
-msgctxt "field:stock.configuration.location,create_date:"
+msgctxt "field:stock.configuration.location.review,create_date:"
 msgid "Create Date"
-msgstr "Data de creació"
+msgstr "Data creació"
 
-msgctxt "field:stock.configuration.location,create_uid:"
+msgctxt "field:stock.configuration.location.review,create_uid:"
 msgid "Create User"
 msgstr "Usuari creació"
 
-msgctxt "field:stock.configuration.location,id:"
+msgctxt "field:stock.configuration.location.review,id:"
 msgid "ID"
 msgstr "ID"
 
-msgctxt "field:stock.configuration.location,location:"
+msgctxt "field:stock.configuration.location.review,location:"
 msgid "Location"
 msgstr "Ubicació"
 
-msgctxt "field:stock.configuration.location,rec_name:"
+msgctxt "field:stock.configuration.location.review,rec_name:"
 msgid "Name"
 msgstr "Nom"
 
-msgctxt "field:stock.configuration.location,warehouse:"
+msgctxt "field:stock.configuration.location.review,warehouse:"
 msgid "Warehouse"
 msgstr "Magatzem"
 
-msgctxt "field:stock.configuration.location,write_date:"
+msgctxt "field:stock.configuration.location.review,write_date:"
 msgid "Write Date"
-msgstr "Data de modificació"
+msgstr "Data modificació"
 
-msgctxt "field:stock.configuration.location,write_uid:"
+msgctxt "field:stock.configuration.location.review,write_uid:"
 msgid "Write User"
 msgstr "Usuari modificació"
 
@@ -50,26 +54,30 @@ msgctxt "field:stock.shipment.out,review_description:"
 msgid "Review Description"
 msgstr "Revisió descripció"
 
+msgctxt "help:product.template,review_location:"
+msgid "Move to review location when receive supplier shipments"
+msgstr "Mou a la ubicació de revissió al rebre un albarà de proveïdor"
+
 msgctxt ""
 "model:ir.action.act_window.domain,name:act_shipment_out_form_domain_to_review"
 msgid "To Review"
 msgstr "Per revisar"
 
-msgctxt "model:product.review.type,name:product_review_type_review_location"
+msgctxt "model:product.review.type,name:"
 msgid "Review Location"
 msgstr "Revisió d'ubicació"
 
-msgctxt "model:stock.configuration.location,name:"
-msgid "Configuration Location"
-msgstr "Configuració d'ubicació"
+msgctxt "model:stock.configuration.location.review,name:"
+msgid "Configuration Location Review"
+msgstr "Configuració ubiacions revisió"
 
-msgctxt "view:stock.configuration.location:"
+msgctxt "view:stock.configuration.location.review:"
 msgid "Review Location"
 msgstr "Revisió d'ubicació"
 
-msgctxt "view:stock.configuration.location:"
+msgctxt "view:stock.configuration.location.review:"
 msgid "Review Locations"
-msgstr "Revisió d'ubicacions"
+msgstr "Ubicacions revisió"
 
 msgctxt "view:stock.shipment.out:"
 msgid "Review"

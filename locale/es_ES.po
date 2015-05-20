@@ -2,43 +2,47 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
-msgctxt "field:stock.configuration,locations:"
-msgid "Review Locations"
-msgstr "Revisión de ubicaciones"
+msgctxt "field:product.template,review_location:"
+msgid "Review Location"
+msgstr "Revisión ubicación"
 
-msgctxt "field:stock.configuration.location,configuration:"
+msgctxt "field:stock.configuration,review_locations:"
+msgid "Review Locations"
+msgstr "Ubicaciones revisión"
+
+msgctxt "field:stock.configuration.location.review,configuration:"
 msgid "Configuration"
 msgstr "Configuración"
 
-msgctxt "field:stock.configuration.location,create_date:"
+msgctxt "field:stock.configuration.location.review,create_date:"
 msgid "Create Date"
-msgstr "Fecha de creación"
+msgstr "Fecha creación"
 
-msgctxt "field:stock.configuration.location,create_uid:"
+msgctxt "field:stock.configuration.location.review,create_uid:"
 msgid "Create User"
-msgstr "Usuario de creación"
+msgstr "Usuario creación"
 
-msgctxt "field:stock.configuration.location,id:"
+msgctxt "field:stock.configuration.location.review,id:"
 msgid "ID"
 msgstr "ID"
 
-msgctxt "field:stock.configuration.location,location:"
+msgctxt "field:stock.configuration.location.review,location:"
 msgid "Location"
 msgstr "Ubicación"
 
-msgctxt "field:stock.configuration.location,rec_name:"
+msgctxt "field:stock.configuration.location.review,rec_name:"
 msgid "Name"
 msgstr "Nombre"
 
-msgctxt "field:stock.configuration.location,warehouse:"
+msgctxt "field:stock.configuration.location.review,warehouse:"
 msgid "Warehouse"
 msgstr "Almacén"
 
-msgctxt "field:stock.configuration.location,write_date:"
+msgctxt "field:stock.configuration.location.review,write_date:"
 msgid "Write Date"
 msgstr "Fecha modificación"
 
-msgctxt "field:stock.configuration.location,write_uid:"
+msgctxt "field:stock.configuration.location.review,write_uid:"
 msgid "Write User"
 msgstr "Usuario modificación"
 
@@ -50,26 +54,31 @@ msgctxt "field:stock.shipment.out,review_description:"
 msgid "Review Description"
 msgstr "Descripción revisión"
 
+msgctxt "help:product.template,review_location:"
+msgid "Move to review location when receive supplier shipments"
+msgstr ""
+"Mueve a la ubicación de revisión cuando se recibe un albarán de proveedor"
+
 msgctxt ""
 "model:ir.action.act_window.domain,name:act_shipment_out_form_domain_to_review"
 msgid "To Review"
 msgstr "A revisar"
 
-msgctxt "model:product.review.type,name:product_review_type_review_location"
+msgctxt "model:product.review.type,name:"
 msgid "Review Location"
 msgstr "Revisión de ubicación"
 
-msgctxt "model:stock.configuration.location,name:"
-msgid "Configuration Location"
-msgstr "Configuración de ubicación"
+msgctxt "model:stock.configuration.location.review,name:"
+msgid "Configuration Location Review"
+msgstr "Configuración ubicación revisión"
 
-msgctxt "view:stock.configuration.location:"
+msgctxt "view:stock.configuration.location.review:"
 msgid "Review Location"
 msgstr "Revisión de ubicación"
 
-msgctxt "view:stock.configuration.location:"
+msgctxt "view:stock.configuration.location.review:"
 msgid "Review Locations"
-msgstr "Revisión de ubicaciones"
+msgstr "Ubicaciones revisión"
 
 msgctxt "view:stock.shipment.out:"
 msgid "Review"
