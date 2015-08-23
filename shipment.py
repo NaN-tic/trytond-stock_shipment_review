@@ -2,7 +2,7 @@
 # copyright notices and license terms.
 from trytond.model import fields
 from trytond.pool import Pool, PoolMeta
-from trytond.pyson import Eval
+from trytond.pyson import Eval, Not, Bool
 
 __all__ = ['ShipmentOut', 'ShipmentIn']
 __metaclass__ = PoolMeta
@@ -22,6 +22,13 @@ class ShipmentOut:
     def done(cls, shipments):
         super(ShipmentOut, cls).done(shipments)
         cls.write(shipments, {'review': False})
+
+    @classmethod
+    def view_attributes(cls):
+        return super(ShipmentOut, cls).view_attributes() + [
+            ('//page[@id="review"]', 'states', {
+                    'invisible': Not(Bool(Eval('review'))),
+                    })]
 
 
 class ShipmentIn:

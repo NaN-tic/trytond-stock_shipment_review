@@ -22,7 +22,9 @@ copyright notices and license terms. -->
         <record model="ir.action.act_window.domain" id="act_shipment_out_form_domain_to_review">
             <field name="name">To Review</field>
             <field name="sequence" eval="9999"/>
-            <field name="domain">[('review', '=', True)]</field>
+            <field name="domain"
+                eval="[('review', '=', True)]"
+                pyson="1"/>
             <field name="act_window" ref="stock.act_shipment_out_form"/>
         </record>
     </data>
