@@ -38,5 +38,4 @@ class ShipmentIn:
             for l in config.review_locations:
                 if l.warehouse == incoming_move.shipment.warehouse:
                     move.to_location = l.location
-        print move.to_location
         return move
