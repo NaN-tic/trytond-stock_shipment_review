@@ -4,10 +4,10 @@ from trytond.model import fields
 from trytond.pool import PoolMeta
 
 __all__ = ['Template']
-__metaclass__ = PoolMeta
 
 
 class Template:
+    __metaclass__ = PoolMeta
     __name__ = 'product.template'
     review_location = fields.Boolean('Review Location',
         help='Move to review location when receive supplier shipments')

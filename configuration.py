@@ -5,7 +5,6 @@ from trytond.pool import PoolMeta
 from trytond.pyson import If, Bool, Eval
 
 __all__ = ['ConfigurationLocationReview', 'Configuration']
-__metaclass__ = PoolMeta
 
 
 class ConfigurationLocationReview(ModelSQL, ModelView):
@@ -25,6 +24,7 @@ class ConfigurationLocationReview(ModelSQL, ModelView):
 
 
 class Configuration:
+    __metaclass__ = PoolMeta
     __name__ = 'stock.configuration'
     review_locations = fields.One2Many('stock.configuration.location.review',
         'configuration', 'Review Locations')

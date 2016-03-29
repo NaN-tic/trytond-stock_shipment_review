@@ -5,10 +5,10 @@ from trytond.pool import Pool, PoolMeta
 from trytond.pyson import Eval, Not, Bool
 
 __all__ = ['ShipmentOut', 'ShipmentIn']
-__metaclass__ = PoolMeta
 
 
 class ShipmentOut:
+    __metaclass__ = PoolMeta
     __name__ = 'stock.shipment.out'
     review = fields.Boolean('Review')
     review_description = fields.Text('Review Description',
@@ -32,6 +32,7 @@ class ShipmentOut:
 
 
 class ShipmentIn:
+    __metaclass__ = PoolMeta
     __name__ = 'stock.shipment.in'
 
     @classmethod
